@@ -16,18 +16,18 @@ public class CalculoNotaMedia_Ejer1 {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
-        int nota1;
-        int notafinal;
-        int nota2;
+        double nota1;
+        double notafinal;
+        double nota2;
         
         System.out.println("Introduce la primera nota; ");
-        nota1 = sc.nextInt();
+        nota1 = sc.nextDouble();
         System.out.println("Introduce nota que deseas sacar en el trimestre: ");
-        notafinal = sc.nextInt();
+        notafinal = sc.nextDouble();
         
+        nota2 = ((notafinal*100)- (nota1 *40)) /60;
         
-        
-        //System.out.println("Para tener un "+notafinal+ "en el trimestre necesitas sacar un " + + "en el segundo examen");
+        System.out.println("Para tener un " + notafinal + " en el trimestre necesitas sacar un " + nota2 + " en el segundo examen");
     }
     
 }
