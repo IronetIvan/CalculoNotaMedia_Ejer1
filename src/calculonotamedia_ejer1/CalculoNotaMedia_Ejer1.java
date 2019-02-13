@@ -20,7 +20,7 @@ public class CalculoNotaMedia_Ejer1 {
         double notafinal;
         double nota2;
         
-        System.out.println("Introduce la primera nota; ");
+        System.out.println("Introduce la primera nota: ");
         nota1 = sc.nextDouble();
         System.out.println("Introduce nota que deseas sacar en el trimestre: ");
         notafinal = sc.nextDouble();
