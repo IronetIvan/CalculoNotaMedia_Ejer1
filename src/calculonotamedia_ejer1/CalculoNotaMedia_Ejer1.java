@@ -27,7 +27,7 @@ public class CalculoNotaMedia_Ejer1 {
         
         nota2 = ((notafinal*100)- (nota1 *40)) /60;
         
-        System.out.println("Para tener un " + notafinal + " en el trimestre necesitas sacar un " + nota2 + " en el segundo examen");
+        System.out.println("Para tener un " + notafinal + " en el trimestre, necesitas sacar un " + nota2 + " en el segundo examen");
     }
     
 }
